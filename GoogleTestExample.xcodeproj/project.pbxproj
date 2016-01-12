@@ -514,7 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"";
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" --gtest_output=xml:\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\".xml";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
