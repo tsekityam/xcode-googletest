@@ -17,3 +17,10 @@ TEST(Counter, Decrement) {
     Counter counter;
     EXPECT_EQ(-1, counter.Decrement());
 }
+
+TEST(Counter, Reset) {
+    Counter counter;
+    counter.Increment();
+    counter.Increment();
+    EXPECT_EQ(0, counter.Reset());
+}

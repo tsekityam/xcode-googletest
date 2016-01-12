@@ -10,3 +10,8 @@ int Counter::Increment() {
 int Counter::Decrement() {
     return --count_;
 }
+
+int Counter::Reset() {
+    count_ = 0;
+    return count_;
+}
