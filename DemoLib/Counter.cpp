@@ -8,5 +8,5 @@ int Counter::Increment() {
 }
 
 int Counter::Decrement() {
-    return ++count_;
+    return --count_;
 }
