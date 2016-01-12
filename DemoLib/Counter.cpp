@@ -6,3 +6,7 @@ Counter::Counter() :
 int Counter::Increment() {
     return ++count_;
 }
+
+int Counter::Decrement() {
+    return ++count_;
+}

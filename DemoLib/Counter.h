@@ -5,6 +5,7 @@ public:
 
     int GetCount() { return count_; }
     int Increment();
+    int Decrement();
 
 private:
     int count_;
