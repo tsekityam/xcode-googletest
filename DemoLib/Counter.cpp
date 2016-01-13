@@ -12,6 +12,6 @@ int Counter::Decrement() {
 }
 
 int Counter::Reset() {
-    count_ = 0;
+    count_ = 1;
     return count_;
 }
